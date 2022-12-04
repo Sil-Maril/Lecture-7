@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Raleway&display=swap");
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 79px;
+  padding-left: 117px;
+}
+
+.image-wrapper {
+  float: right;
+  width: 550px;
+  height: 810px;
+  background-image: url("../images/girl.jpg");
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e0e62;
+  padding-right: 320px;
+}
+.nav-wrapper {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 38px;
+  margin-right: 133px;
+}
+.nav-list,
+li {
+  font-weight: 500;
+  font-size: 18px;
+  color: #15143966;
+  cursor: pointer;
+}
+
+.nav-list,
+li:hover {
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  height: 249.9px;
+  margin-left: 117px;
+  margin-top: 120px;
+  margin-bottom: 71px;
+}
+.main-title {
+  font-weight: 700px;
+  font-size: 58px;
+  line-height: 70px;
+  width: 568px;
+  height: 140px;
+  color: #1e0e62;
+}
+.main-paragraph {
+  width: 471px;
+  height: 83.9px;
+  opacity: 70%;
+  line-height: 28px;
+  margin-bottom: 71px;
+}
+
+.paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #15143966;
+  margin-top: 30px;
+}
+.started-btn,
+.learn-btn {
+  border-radius: 100px;
+  padding: 17px 35px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.started-btn {
+  background-color: #25DAC5;
+  color: #FFFFFF;
+}
+
+.learn-btn {
+  color:#1E0E62;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+  border: 2px solid #EBEAED;
+}
+
